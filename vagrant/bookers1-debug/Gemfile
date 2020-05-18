@@ -46,15 +46,10 @@ end
 
 group :test do
   gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
 	gem 'rspec-rails'
 	gem "factory_bot_rails"
-	gem 'rspec-parameterized'
 	gem 'faker'
-	gem 'shoulda-matchers'
-	gem 'rails-controller-testing'
 end
 
 group :development do
